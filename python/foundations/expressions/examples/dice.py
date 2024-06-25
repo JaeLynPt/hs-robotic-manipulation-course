@@ -6,7 +6,11 @@ def roll_dice():
     """
     Simulate rolling two dice.
     """
-    pass
+    die_1 = random.randint(0, NUM_SIDES)
+    die_2 = random.randint(0, NUM_SIDES)
+
+    sum = die_1 + die_2
+    return sum
 
 def main():
     roll_dice()
