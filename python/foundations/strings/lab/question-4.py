@@ -4,10 +4,12 @@ def rect(width, length):
 	
 	>>> rect(4, 1)
 	####
+	
 
 	>>> rec(6, 3)
 	######
 	######
 	######
 	"""
-  pass
+	for i in range(length):
+		print("#" * width)

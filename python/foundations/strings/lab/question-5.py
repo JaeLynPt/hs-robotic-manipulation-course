@@ -1,3 +1,4 @@
+import string
 def indoor(s):
     """
     Return the string s in lowercase.
@@ -11,4 +12,5 @@ def indoor(s):
     >>> indoor('bEaCh DAY')
     'beach day'
     """
-    pass
+
+    print(s.casefold())
