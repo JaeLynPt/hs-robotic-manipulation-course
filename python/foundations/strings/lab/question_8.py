@@ -12,14 +12,14 @@ def dollars_to_float(d):
   """
   Convert a dollar amount from a string formatted as $##.## to a float.
   """
-  # TODO
+  return (d[1:]) * 1.0
 
 
 def percent_to_float(p):
   """
   Convert a percentage from a string formatted as ##% to a float.
   """
-    # TODO
+  return (p[0:2]) * 1.0
 
 
 main()

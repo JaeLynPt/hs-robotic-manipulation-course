@@ -15,4 +15,11 @@ def main():
     Enter y_2: 6
     The distance between the points (1, 2) and (4, 6) is 5.0
     """
-    pass
+    first_point = int(input("Enter the first x coordinate ... : "))
+    snd_point = int(input("Enter the first y coordinate .... : "))
+    thd_point = int(input("Enter the second x coordinate ... : "))
+    frth_point = int(input("Enter the second y coordinate ... : "))
+
+    print(f"The distance between the points ({first_point},{snd_point}) and ({thd_point},{frth_point}) is {math.sqrt((thd_point - first_point)**2 + (frth_point- snd_point)**2)}")
+          
+main()
